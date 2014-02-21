@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 Tom Corwine. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface TOMEffectView : NSObject
+@interface TOMEffectView : UIView
+
+@property (nonatomic) CGFloat blur;
 
 @end
