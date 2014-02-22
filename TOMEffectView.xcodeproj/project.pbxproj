@@ -16,6 +16,7 @@
 		F1C0C24E18B718FB00300C71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1C0C24C18B718FB00300C71 /* InfoPlist.strings */; };
 		F1C0C25018B718FB00300C71 /* TOMEffectViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C0C24F18B718FB00300C71 /* TOMEffectViewTests.m */; };
 		F1C0C25A18B71A1B00300C71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C0C25918B71A1B00300C71 /* UIKit.framework */; };
+		F1C0C2AA18B731A300300C71 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C0C2A918B731A300300C71 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F1C0C24D18B718FB00300C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1C0C24F18B718FB00300C71 /* TOMEffectViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOMEffectViewTests.m; sourceTree = "<group>"; };
 		F1C0C25918B71A1B00300C71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1C0C2A918B731A300300C71 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C0C2AA18B731A300300C71 /* GLKit.framework in Frameworks */,
 				F1C0C25A18B71A1B00300C71 /* UIKit.framework in Frameworks */,
 				F1C0C23418B718FB00300C71 /* Foundation.framework in Frameworks */,
 			);
@@ -100,6 +103,7 @@
 		F1C0C23218B718FB00300C71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1C0C2A918B731A300300C71 /* GLKit.framework */,
 				F1C0C25918B71A1B00300C71 /* UIKit.framework */,
 				F1C0C23318B718FB00300C71 /* Foundation.framework */,
 				F1C0C24118B718FB00300C71 /* XCTest.framework */,
@@ -409,6 +413,7 @@
 				F1C0C25518B718FB00300C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1C0C25618B718FB00300C71 /* Build configuration list for PBXNativeTarget "TOMEffectViewTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				F1C0C25818B718FB00300C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
